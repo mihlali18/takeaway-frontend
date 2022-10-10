@@ -1,0 +1,8 @@
+.btn-main{
+     text-decoration: none;               
+}
+.img-gro:hover{
+     transform: translateY(-20px);
+     filter: grayscale(0);
+     transition: transform 1s;
+}

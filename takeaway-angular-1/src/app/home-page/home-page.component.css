@@ -1,0 +1,13 @@
+.background{
+    background-image: url(https://i.postimg.cc/RFdhDcZF/Burger-and-Fries.jpg);
+    background-size: cover;
+    
+}
+.h1{
+   padding-top: 500px;
+   justify-content: center;
+   padding-left: 50px;
+   color: white;
+   
+
+}

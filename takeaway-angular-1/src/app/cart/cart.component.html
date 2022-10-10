@@ -1,0 +1,43 @@
+  <div class="Cart-Container"></div> 
+<div class="Header">
+ <h3 class="Heading" style="color: white ;">Shopping Cart</h3>
+ <h5 class="Action">Remove all</h5>
+</div>
+<div class="Cart-items">
+<div class="Image-box">
+</div>
+<div class="row" >
+  <div class="about col-3  " *ngFor="let item of products" >
+    <img class="image-box" [src] ="item.image" height="200px" style="margin-left:10px ; width: 200px;" />
+    <h1 class="title" style="color: white;">{{item.name}}</h1>
+    <div class="title" style="color: white;">Price:R{{item.price}}</div>
+    <div class="counter">
+      <div class="btn " (click)=" delete(product)">del</div>
+    </div> 
+    <div style="display: flex;justify-content:center; ">
+      <div class="remove" ><u>Remove</u></div>
+    </div>
+   
+    </div> 
+</div>
+ 
+<div class="prices">
+<div class=”amount”></div>
+<!-- <div class=”save”><u>Save for later</u></div> -->
+
+</div>
+</div>                                                        
+ 
+<!-- <hr> 
+ <div class=”checkout”>
+ <div class=”total”>
+ <div>
+ <div class=”Subtotal”>Sub-Total</div>
+ <div class=”items”>2 items</div>
+ </div>
+ <div class=”total-amount”>$6.18</div>
+ </div>
+ <button class=”button”>Checkout</button>
+ </div>                 -->
+
+

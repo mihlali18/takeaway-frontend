@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url(https://i.postimg.cc/RFdhDcZF/Burger-and-Fries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.btn-main{
+    color: white; 
+    border-radius: 5px; 
+    font-weight: 700; 
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
